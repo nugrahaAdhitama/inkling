@@ -9,15 +9,11 @@ hamburger.addEventListener('click', function() {
     navMenu.classList.toggle('hidden');
 })
 
-// navbar fixed
-window.onscroll = function() {
-    const header = document.querySelector('header')
-    const product = document.querySelector('#products');
-    const fixedNav = product.offsetTop;
 
-    if(window.pageYOffset > fixedNav) {
-        header.classList.add('navbar-fixed');
-    } else {
-        header.classList.remove('navbar-fixed');
-    }
-}
+// item women muncul
+const women = document.querySelector('#women');
+const womenItems = document.querySelector('.item-women');
+
+women.addEventListener('mouseover', function() {
+    womenItems.classList.toggle('hidden');
+})
