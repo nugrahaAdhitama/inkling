@@ -609,6 +609,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 100px;
 }
 
+.w-\[150px\] {
+  width: 150px;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -723,20 +727,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/dist\/img\/hero\.jpg\'\)\] {
-  background-image: url('/dist/img/hero.jpg');
+.bg-\[url\(\'\/dist\/img\/hero\.png\'\)\] {
+  background-image: url('/dist/img/hero.png');
 }
 
-.bg-\[url\(\'\/dist\/img\/women\.jpeg\'\)\] {
-  background-image: url('/dist/img/women.jpeg');
+.bg-\[url\(\'\/dist\/img\/women\.png\'\)\] {
+  background-image: url('/dist/img/women.png');
 }
 
-.bg-\[url\(\'\/dist\/img\/men\.jpeg\'\)\] {
-  background-image: url('/dist/img/men.jpeg');
+.bg-\[url\(\'\/dist\/img\/men\.png\'\)\] {
+  background-image: url('/dist/img/men.png');
 }
 
-.bg-\[url\(\'\/dist\/img\/sale\.jpeg\'\)\] {
-  background-image: url('/dist/img/sale.jpeg');
+.bg-\[url\(\'\/dist\/img\/sale\.png\'\)\] {
+  background-image: url('/dist/img/sale.png');
 }
 
 .bg-cover {

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
     <title>Inkling</title>
 </head>
 <body class="bg-slate-300">
@@ -13,12 +13,14 @@
     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
         <div class="container">
             <div class="flex items-center justify-between relative">
-                <!-- Elemen Sebelah Kiri -->
+                <!-- Elemen sebelah kiri AKA logo -->
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-lg block"><img src="dist/img/logo.png" alt="" width="150px"></a>
+                    <a href="index.html#home" class="block">
+                        <img src="dist/img/logo.png" alt="" class="w-[150px]">
+                    </a>
                 </div>
 
-                <!-- Elemen Sebelah Kanan -->
+                <!-- Elemen sebelah kanan -->
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
                         <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
@@ -26,23 +28,23 @@
                         <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
                     </button>
 
-                    <!-- bikin nav -->
+                    <!-- navbarnya -->
                     <nav id="nav-menu" class="hidden absolute py-5 bg-slate-500 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none transition duration-300 ease-in-out">
                         <ul class="block lg:flex">
                             <li class="group">
-                                <a href="#home" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Home</a>
+                                <a href="index.html" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Home</a>
                             </li>
                             <li class="group" >
                                 <a href="page/women/" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out" id="women">Women</a>
                             </li>
                             <li class="group">
-                                <a href="#men" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Men</a>
+                                <a href="page/men/" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Men</a>
                             </li>
                             <li class="group">
-                                <a href="#sale" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Sale</a>
+                                <a href="page/sale/" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Sale</a>
                             </li>
                             <li class="group">
-                                <a href="#policies" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Store Policies</a>
+                                <a href="page/policies" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Store Policies</a>
                             </li>
                             <li class="group">
                                 <a href="#contact" class="text-base text-dark py-2 mx-8 flex lg:text-white group-hover:text-white transition duration-300 ease-in-out">Contact</a>
@@ -50,8 +52,6 @@
                         </ul>
                     </nav>
                 </div>
-
-                
             </div>
         </div>
     </header>
@@ -73,28 +73,28 @@
     </section>
     <!-- Akhir Hero -->
 
-    <!-- Awal produk -->
+    <!-- Awal Products -->
     <section id="products" class="lg:pt-36 lg:pb-16">
         <div class="lg:container">
             <div class="flex flex-wrap">
                 <div class="w-full lg:px-4 lg:w-1/3">
                     <div class="w-full min-h-[360px] flex justify-center items-center bg-[url('/dist/img/women.png')] bg-cover bg-center group">
-                        <a href="" class="text-3xl text-center block text-white lg:text-4xl group-hover:scale-110 transition duration-300 ease-in-out">Women</a>
+                        <a href="page/women/" class="text-3xl text-center block text-white lg:text-4xl group-hover:scale-110 transition duration-300 ease-in-out">Women</a>
                     </div>
                 </div>
                 <div class="w-full lg:px-4 lg:w-1/3">
                     <div class="w-full min-h-[360px] flex justify-center items-center bg-[url('/dist/img/men.png')] bg-cover bg-center group">
-                        <a href="" class="text-3xl text-center block text-white lg:text-4xl group-hover:scale-110 transition duration-300 ease-in-out">Men</a>
+                        <a href="page/men/" class="text-3xl text-center block text-white lg:text-4xl group-hover:scale-110 transition duration-300 ease-in-out">Men</a>
                     </div>
                 </div>
                 <div class="w-full lg:px-4 lg:w-1/3">
                     <div class="w-full min-h-[360px] flex justify-center items-center bg-[url('/dist/img/sale.png')] bg-cover bg-center group">
-                        <a href="" class="text-3xl text-center block text-white lg:text-4xl group-hover:scale-110 transition duration-300 ease-in-out">Sale</a>
+                        <a href="page/sale/" class="text-3xl text-center block text-white lg:text-4xl group-hover:scale-110 transition duration-300 ease-in-out">Sale</a>
                     </div>
                 </div>
             </div>
     </section>
-    <!-- Akhir produk -->
+    <!-- Akhir Products -->
 
     <!-- Awal value -->
     <section id="value" class="pt-36 pb-16">
@@ -252,8 +252,7 @@
         </div>
     </footer>
     <!-- Akhir footer -->
-    
+
     <script src="dist/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
