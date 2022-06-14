@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../dist/output.css">
+    <title>Men's Gear & Apparel | Inkling</title>
+</head>
+<body class="bg-slate-300">
+    <!-- Awal Header -->
+    <header class="bg-slate-300 absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <!-- Elemen Sebelah Kiri -->
+                <div class="px-4">
+                    <a href="../../index.html" class="font-bold text-lg block"><img src="../../dist/img/logo.png" alt="" width="150px"></a>
+                </div>
+
+                <!-- Elemen Sebelah Kanan -->
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line-2 transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line-2 transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line-2 transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <!-- bikin nav -->
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-slate-500 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none transition duration-300 ease-in-out">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="../../index.html" class="text-base text-dark py-2 mx-8 flex lg:text-black group-hover:text-white transition duration-300 ease-in-out lg:group-hover:scale-110 lg:group-hover:text-black">Home</a>
+                            </li>
+                            <li class="group" >
+                                <a href="../women/" class="text-base text-dark py-2 mx-8 flex lg:text-black group-hover:text-white transition duration-300 ease-in-out lg:group-hover:scale-110 lg:group-hover:text-black" id="women">Women</a>
+                            </li>
+                            <li class="group">
+                                <a href="../men/" class="text-base text-dark py-2 mx-8 flex lg:text-black group-hover:text-white transition duration-300 ease-in-out lg:group-hover:scale-110 lg:group-hover:text-black">Men</a>
+                            </li>
+                            <li class="group">
+                                <a href="../sale/" class="text-base text-dark py-2 mx-8 flex lg:text-black group-hover:text-white transition duration-300 ease-in-out lg:group-hover:scale-110 lg:group-hover:text-black">Sale</a>
+                            </li>
+                            <li class="group">
+                                <a href="../policies/" class="text-base text-dark py-2 mx-8 flex lg:text-black group-hover:text-white transition duration-300 ease-in-out lg:group-hover:scale-110 lg:group-hover:text-black">Store Policies</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                
+            </div>
+        </div>
+    </header>
+    <!-- Akhir Header -->
+
+    <!-- Awal Hero -->
+    <section id="home" class="pt-36 lg:pb-32 lg:bg-slate-300">
+        <div class="lg:container">
+            <div class="flex flex-wrap">
+                <div class="w-full min-h-[360px] self-center px-4 bg-[url('../../dist/img/men/hero.jfif')] bg-cover lg:w-1/2 flex flex-col justify-center lg:bg-none">
+                    <h1 class="font-bold text-white lg:text-black text-3xl lg:text-5xl">Ready for skate?</h1>
+                    <p class="font-medium text-white lg:text-black text-sm lg:text-lg mb-10">Maximize your experience with high quality equipment</p>
+                    <a href="#" class="max-w-max text-base font-semibold  py-3 px-8 rounded-sm hover:shadow-lg bg-white hover:text-white hover:bg-slate-500 transition duration-300 ease-in-out">Find your equipment</a>
+                </div>
+
+                <div class="hidden lg:block self-end px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:mt-0 lg:right-0">
+                        <img src="../../dist/img/men/hero-right.png" alt="" class="max-w-full mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- AKhir Hero -->
+
+    <!-- Awal Product -->
+    <section id="products" class="pt-36 pb-32 bg-white">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 lg:w-1/3 mb-10 lg:mb-0">
+                    <a href="#" class="">
+                        <div class="rounded-sm shadow-md overflow-hidden group">
+                            <div class="bg-[url('../../dist/img/men/thumbnail/1-front.png')] h-[400px] bg-cover bg-no-repeat lg:group-hover:bg-[url('../../dist/img/men/thumbnail/1-back.png')]"></div>
+                        </div>
+                        <a href="#" class="font-bold block text-3xl mb-10 mt-5 lg:text-5xl">Snowboarding</a>
+                        <a href="#" class="font-semibold uppercase underline indent-2">shop now</a>
+                    </a>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/3 mb-10 lg:mb-0">
+                    <a href="#" class="">
+                        <div class="rounded-sm shadow-md overflow-hidden group">
+                            <div class="bg-[url('../../dist/img/men/thumbnail/2-front.png')] h-[400px] bg-cover bg-no-repeat lg:group-hover:bg-[url('../../dist/img/men/thumbnail/2-back.png')]"></div>
+                        </div>
+                        <a href="#" class="font-bold block text-3xl mb-10 mt-5 lg:text-5xl">Jackets & Snow Pants</a>
+                        <a href="#" class="font-semibold uppercase underline indent-2">shop now</a>
+                    </a>
+                </div>
+                <div class="w-full px-4 lg:w-1/3 mb-10 lg:mb-0">
+                    <a href="#" class="">
+                        <div class="rounded-sm shadow-md overflow-hidden group">
+                            <div class="bg-[url('../../dist/img/men/thumbnail/3.png')] h-[400px] bg-cover bg-no-repeat"></div>
+                        </div>
+                        <a href="#" class="font-bold block text-3xl mb-10 mt-5 lg:text-5xl">Accessories</a>
+                        <a href="#" class="font-semibold uppercase underline indent-2">shop now</a>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- AKhir Product -->
+
+    <!-- Awal Highlight Items -->
+    <section id="highlight" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4">
+                    <h2 class="font-bold text-3xl lg:text-5xl">Skate Comfortably</h2>
+                    <p class="font-medium text-base lg:text-xl mb-10">High quality equipment to improve your experience</p>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/3 mb-10 lg:mb-0">
+                    <a href="#" class="">
+                        <div class="rounded-sm shadow-md overflow-hidden group">
+                            <div class="bg-[url('../../dist/img/men/highlight/1-front.png')] h-[400px] bg-cover lg:group-hover:bg-[url('../../dist/img/men/highlight/1-back.png')]"></div>
+                        </div>
+                        <p class="font-bold block text-3xl mb-4 mt-5 lg:text-2xl">Men's Corvet Jacket</p>
+                        <p class="font-semibold uppercase indent-2"><span class="line-through">$219.95</span><span class="text-red-400 ml-5">$175.96</span></p>
+                    </a>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/3 mb-10 lg:mb-0">
+                    <a href="#" class="">
+                        <div class="rounded-sm shadow-md overflow-hidden group">
+                            <div class="bg-[url('../../dist/img/men/highlight/2-front.png')] h-[400px] bg-cover lg:group-hover:bg-[url('../../dist/img/men/highlight/2-back.png')]"></div>
+                        </div>
+                        <p class="font-bold block text-3xl mb-4 mt-5 lg:text-2xl">Men's GORE-TEX Swash Pant</p>
+                        <p class="font-semibold uppercase indent-2"><span class="line-through">$409.95</span><span class="text-red-400 ml-5">$327.96</span></p>
+                    </a>
+                </div>
+
+                <div class="w-full px-4 lg:w-1/3 mb-10 lg:mb-0">
+                    <a href="#" class="">
+                        <div class="rounded-sm shadow-md overflow-hidden group">
+                            <div class="bg-[url('../../dist/img/men/highlight/3.png')] h-[400px] bg-cover"></div>
+                        </div>
+                        <p class="font-bold block text-3xl mb-4 mt-5 lg:text-2xl">Men's GORE-TEX Glove</p>
+                        <p class="font-semibold uppercase indent-2"><span class="line-through">$74.95</span><span class="text-red-400 ml-5">$52.96</span></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Highlight Items -->
+
+    <!-- Awal Tips -->
+    <section id="tips" class="pt-36 pb-32 bg-white">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 flex flex-col justify-center items-center">
+                    <h2 class="font-bold text-black text-3xl lg:text-5xl">Winter Gear,</h2>
+                    <h2 class="font-bold text-black text-3xl lg:text-5xl mb-3">Summer Storage</h2>
+                    <p class="font-medium text-base lg:text-lg text-black mb-10">Maximize your kit's life with these storage tips for the off-season. Because getting more seasons out of your gear means a smaller impact on both the environment and your wallet.</p>
+                    <a href="#" class="max-w-max text-base font-semibold  py-3 px-8 rounded-sm hover:shadow-lg bg-slate-300 hover:text-white hover:bg-slate-700 transition duration-300 ease-in-out uppercase">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- AKhir Tips -->
+
+    <!-- Awal Footer -->
+    <footer class="bg-black pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap border-b-2 border-white">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/5">
+                    <a href="" class="block"><img src="../../dist/img/logo.png" alt="" class="w-[100px] h-[100px] self-center"></a>
+                </div>
+
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium lg:w-1/5">
+                    <h4 class="font-bold text-lg">About Us</h4>
+                    <a href="" class="block text-base font-medium">About Inkling</a>
+                    <a href="" class="block text-base font-medium">Purpose</a>
+                    <a href="" class="block text-base font-medium">Winter Series</a>
+                    <a href="" class="block text-base font-medium">We Skate Together</a>
+                    <a href="" class="block text-base font-medium">Chill Foundation</a>
+                    <a href="" class="block text-base font-medium">Careers</a>
+                </div>
+
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium lg:w-1/5">
+                    <h4 class="font-bold text-lg">Program</h4>
+                    <a href="" class="block text-base font-medium">Cure Cancer Charity Program</a>
+                    <a href="" class="block text-base font-medium">Performer Program</a>
+                    <a href="" class="block text-base font-medium">Discount Programs</a>
+                    <a href="" class="block text-base font-medium">Teacher & Student</a>
+                    <a href="" class="block text-base font-medium">First Responder</a>
+                    <a href="" class="block text-base font-medium">Military</a>
+                    <a href="" class="block text-base font-medium">Affiliate</a>
+                </div>
+
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium lg:w-1/5">
+                    <h4 class="font-bold text-lg">Help</h4>
+                    <a href="" class="block text-base font-medium">Help Center</a>
+                    <a href="" class="block text-base font-medium">Track Your Order</a>
+                    <a href="" class="block text-base font-medium">Returns</a>
+                    <a href="" class="block text-base font-medium">Shipping Policy</a>
+                    <a href="" class="block text-base font-medium">Warranty</a>
+                    <a href="" class="block text-base font-medium">Spare Parts</a>
+                    <a href="" class="block text-base font-medium">Get Advice</a>
+                </div>
+
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium lg:w-1/5">
+                    <h4 class="font-bold text-lg">Contact Us</h4>
+                    <a href="" class="block text-base font-medium">Email Us</a>
+                    <a href="" class="block text-base font-medium">(044) 812 6592</a>
+                    <a href="" class="block text-base font-medium">Do Not Sell My Personal Information</a>
+                    <a href="" class="block text-base font-medium">Accessibility</a>
+            </div>
+
+        </div>
+
+        <div class="flex flex-wrap">
+            <div class="w-full px-4 text-slate-300 font-medium">
+                <a href="#" class="block lg:inline lg:px-5 text-base font-medium">Terms & Conditions</a>
+                <a href="#" class="block lg:inline lg:px-5 text-base font-medium">User Content Terms</a>
+                <a href="#" class="block lg:inline lg:px-5 text-base font-medium">Privacy</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="../../dist/js/script.js"></script>
+</body>
+</html>
